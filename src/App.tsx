@@ -1,12 +1,14 @@
 import GlobalStyles from './styles/GlobalStyles'
 import Layout from './components/Layout'
+
+import { NavBar } from './components/Navbar'
+
 function App() {
   return (
 
     <>
       <Layout >
-
-        <h1>Rockeseat</h1>
+        <NavBar />
 
       </Layout>
 
