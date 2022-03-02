@@ -6,8 +6,9 @@ interface Props {
 }
 
 
-export function DropdownOption({ name, content }: Props) {
+export function DropdownOption({ name, content: Content }: Props) {
   return (
+
     <button className="dropdown-option">{name}</button>
   )
 }

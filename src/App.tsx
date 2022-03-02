@@ -2,7 +2,6 @@ import GlobalStyles from './styles/GlobalStyles'
 import Layout from './components/Layout'
 
 import { NavBar } from './components/Navbar'
-
 function App() {
   return (
 
